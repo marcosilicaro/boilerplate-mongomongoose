@@ -1,6 +1,7 @@
 {
   "name": "fcc-mongo-mongoose-challenges",
   "version": "0.0.1",
+  "author": "marco",
   "description": "A boilerplate project",
   "main": "server.js",
   "scripts": {
