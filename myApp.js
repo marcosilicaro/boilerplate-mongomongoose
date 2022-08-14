@@ -1,4 +1,8 @@
-require('dotenv').config();
+import mongoose from 'mongoose'
+require('dotenv').config(); 
+
+//connecting to database
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 let Person;
